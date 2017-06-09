@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/img_resource"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/MikowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        android:text="lutti"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/defaultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:text="one"
+        android:textSize="12dp"/>
+
+        </LinearLayout>
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_play_arrow_black_24dp"/>
+
+
+</LinearLayout>
